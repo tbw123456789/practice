@@ -1,0 +1,14 @@
+运行环境(Eclipse+Tomcat8.0.52+jdk1.8.0_161)
+检验数据访问路径
+http://172.16.16.23:8080/Anes_WebService/ShouMaHisController/GetPatientLabTestMaster/5bf4be96b1250015a44ac652.do
+http://172.16.16.23:8080/Anes_WebService/ShouMaHisController/GetPatientLabTestMaster/5bf4be96b1250015a44ac653.do
+排班回传访问方式
+http://172.16.16.23:8080/Anes_WebService/ShouMaHisController/getPaibanMessage.do
+大屏
+http://172.16.16.23:8080/Anes_WebService/commandController/index.do
+工作站
+http://172.16.16.23:8080/Anes_WebService/ZhurengongzuozhanController/Zhurengongzuozhan.do#
+质控
+http://172.16.16.23:8080/Anes_WebService/ZhikongController/zhikong.do
+手术申请
+http://172.16.16.23:8080/Anes_WebService/ApplyOperationController/applyOperation.do

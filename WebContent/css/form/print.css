@@ -1,0 +1,192 @@
+﻿body {
+    text-align: center;
+    font-size: 14px;
+}
+
+.a4 {
+    margin: 0 auto;
+    width: 430px;
+    height: 840px;
+}
+
+.a4_AfterOperation {
+    margin: 0 auto;
+    width: 860px;
+    height: 1100px;
+    font-size: 14px;
+    /*height: 1050px;谷歌分辨率*/
+    margin-bottom:50px;
+}
+.a4_PrintTable {
+    margin: 0 auto;
+    width: 780px;
+    height: 1100px;
+    /*height: 1050px;谷歌分辨率*/
+    margin-bottom:50px;
+}
+.print_table {
+    height:30px;
+}
+
+.print_div{
+    height:25px;
+    line-height:15px;
+    text-align: left;
+}
+.width {
+    width:130px;
+    height:20px;
+}
+
+.a4_html {
+    margin: 0 auto;
+    width: 430px;
+    height:1110px;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+}
+.lable {
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.printfoot {
+    width: 95%;
+    line-height: 20px;
+    margin-top: 6px;
+}
+
+.printfoot .td_fhead {
+    width: 150px;
+    text-align: right;
+}
+.printfoot .td_fheadA {
+
+    text-align: right;
+}
+
+.printfoot .td_fleft {
+    border-bottom: 1px solid #000000;
+    width:  110px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.nobrtable table{
+    table-layout:fixed;
+
+}
+
+.nobrtable table tr td{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    word-break:keep-all;
+    white-space:nowrap;
+}
+
+.printbody{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.printbody table {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+.printbody table td {
+    border-left: 1px solid #000;
+    line-height: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-top: 1px solid #000;
+}
+
+.hrlabel{
+    display:inline-block;
+    line-height:12px;
+    alignment: center;
+}
+
+.hrlabel hr{
+    border:0.5px solid #000;
+    margin: 0px;
+    margin-bottom: -2px;
+}
+
+.printbody table th {
+    line-height: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-top: 1px solid #000;
+}
+
+.printbody2 table {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 100%;
+}
+
+.printbody2 table td {
+    line-height: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-top: 1px solid #000;
+
+}
+
+.shuhoutitle {
+    width: 98%;
+    text-align: left;
+    line-height: 16px;
+}
+
+.shuhoutxt {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.td_left {
+    text-align: left;
+}
+.td_width {
+    width:140px;
+    align-items:center;
+}
+.printtitle {
+    width: 98%;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.printtitle1 {
+    width: 98%;
+    text-align: left;
+    line-height: 30px;
+}
+
+.noprint {
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.noprint button {
+    height: 46px;
+}
+
+.td_w60 {
+    width: 55px;
+}
+
+.td_w70 {
+    width: 70px;
+}

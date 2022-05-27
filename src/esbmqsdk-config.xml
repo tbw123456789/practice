@@ -1,0 +1,20 @@
+<ESB>
+	<MQCONFIG>
+		<MQCLUSTER>
+			<CODE>S09</CODE>
+			<MQ>failover:(nio://192.168.0.227:61616,nio://192.168.0.228:61616,nio://192.168.0.229:61616)?jms.useAsyncSend=true&amp;jms.producerWindowSize=1024000&amp;</MQ>
+			<TIME_LIVE>43200000</TIME_LIVE>
+			<QUEUES>
+				<GROUPS>
+					<GROUP>
+						<BS02001 />
+						<BS02004 />
+						<BS20003 />
+						<BS20004 />
+						<BS35008 />
+					</GROUP>
+				</GROUPS>
+			</QUEUES>
+		</MQCLUSTER>
+	</MQCONFIG>
+</ESB>

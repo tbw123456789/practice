@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Anes_WebService:Web2 exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Anes_WebService_Web2_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Anes_WebService/web/Web2" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Anes_WebService" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
